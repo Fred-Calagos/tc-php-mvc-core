@@ -1,0 +1,15 @@
+{
+    "name": "tc/php-mvc-core",
+    "autoload": {
+        "psr-4": {
+            "Tc\\PhpMvcCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Frederick Calagos",
+            "email": "frederickcalagos7@gmail.com"
+        }
+    ],
+    "require": {}
+}
