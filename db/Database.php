@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
+namespace thecore\phpmvc\db;
 
-use app\core\Application;
+use thecore\phpmvc\Application;
 
 class Database
 {

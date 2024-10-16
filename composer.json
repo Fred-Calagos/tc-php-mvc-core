@@ -11,5 +11,10 @@
             "email": "frederickcalagos7@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "thecore\\phpmvc":"./"
+        }
+    }
 }

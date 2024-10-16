@@ -1,10 +1,10 @@
 <?php
-namespace app\core;
+namespace thecore\phpmvc;
 /**
  * class router
  * 
  * @author
- * @package app\core
+ * @package thecore\phpmvc
  */
 class Response
 {

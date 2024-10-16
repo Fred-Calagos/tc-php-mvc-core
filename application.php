@@ -1,13 +1,13 @@
 <?php
-namespace app\core;
+namespace thecore\phpmvc;
 
-use app\core\db\Database;
+use thecore\phpmvc\db\Database;
 
 /**
  * class router
  * 
  * @author
- * @package app\core
+ * @package thecore\phpmvc
  */
 class Application
 {
@@ -68,15 +68,15 @@ class Application
 
 
     /**
-     * @param \app\core\Controller $controller
+     * @param \thecore\phpmvc\Controller $controller
      * 
     */
 
-    public function getController(\app\core\Controller $controller)
+    public function getController(\thecore\phpmvc\Controller $controller)
     {
         return $this->controller;
     } 
-    public function setController(\app\core\Controller $controller)
+    public function setController(\thecore\phpmvc\Controller $controller)
     {
         return $this->controller;
     }

@@ -3,10 +3,10 @@
  * class router
  * 
  * @author
- * @package app\core
+ * @package thecore\phpmvc
  */
-namespace app\core;
-use app\core\exception\NotFoundException;
+namespace thecore\phpmvc;
+use thecore\phpmvc\exception\NotFoundException;
  class Router{
 
     public Request $request;
@@ -16,8 +16,8 @@ use app\core\exception\NotFoundException;
     /**
      * Router Constructor
      * 
-     * @param \app\core\Request $request
-     * @param \app\core\Response $response
+     * @param \thecore\phpmvc\Request $request
+     * @param \thecore\phpmvc\Response $response
      * 
     */
 
@@ -50,7 +50,7 @@ use app\core\exception\NotFoundException;
             return Application::$app->view->renderView($callback);
         }
         if(is_array($callback)){
-            /** @var \app\core\Controller $controller */
+            /** @var \thecore\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

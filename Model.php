@@ -1,14 +1,14 @@
 <?php
 
 
-namespace app\core;
-use app\core\Controller;
+namespace thecore\phpmvc;
+use thecore\phpmvc\Controller;
 
 /**
  * class router
  * 
  * @author
- * @package app\core
+ * @package thecore\phpmvc
  */
 abstract class Model
 {

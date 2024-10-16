@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace thecore\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use thecore\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
@@ -10,7 +10,7 @@ class Controller
     public string $action = '';
 
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \thecore\phpmvc\middlewares\BaseMiddleware[]
     */
     protected array $middlewares = [];
     public function setLayout($layout)
@@ -29,7 +29,7 @@ class Controller
     
     /**
      * Summary of getMiddlewares
-     * @return \app\core\middlewares\BaseMiddleware[]
+     * @return \thecore\phpmvc\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

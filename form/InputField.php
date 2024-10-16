@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core\form;
-use app\core\Model;
+namespace thecore\phpmvc\form;
+use thecore\phpmvc\Model;
 
 
 class InputField extends BaseField
@@ -15,7 +15,7 @@ class InputField extends BaseField
     /**
      * Field COnstructor
      * 
-     * @param \app\core\Model $model
+     * @param \thecore\phpmvc\Model $model
      * @param string          $attribute
      */
 
